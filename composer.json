@@ -1,0 +1,5 @@
+{
+    "require": {
+        "freeclimbapi/php-sdk": "^4.0"
+    }
+}
