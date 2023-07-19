@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3c75ec6400a1d22f3a49da6e18e66a0",
+    "content-hash": "4872fc2e3f9f806383e76196f24d64e2",
     "packages": [
         {
             "name": "freeclimbapi/php-sdk",
-            "version": "4.0.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FreeClimbAPI/php-sdk.git",
-                "reference": "63d0074426fb176c76dda58e24316a296b3c3242"
+                "reference": "e9c88b9b780a66772dd536d14608b686af8e3e9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FreeClimbAPI/php-sdk/zipball/63d0074426fb176c76dda58e24316a296b3c3242",
-                "reference": "63d0074426fb176c76dda58e24316a296b3c3242",
+                "url": "https://api.github.com/repos/FreeClimbAPI/php-sdk/zipball/e9c88b9b780a66772dd536d14608b686af8e3e9c",
+                "reference": "e9c88b9b780a66772dd536d14608b686af8e3e9c",
                 "shasum": ""
             },
             "require": {
@@ -61,9 +61,9 @@
             ],
             "support": {
                 "issues": "https://github.com/FreeClimbAPI/php-sdk/issues",
-                "source": "https://github.com/FreeClimbAPI/php-sdk/tree/v4.0.0"
+                "source": "https://github.com/FreeClimbAPI/php-sdk/tree/v4.2.0"
             },
-            "time": "2023-04-26T20:02:11+00:00"
+            "time": "2023-06-15T17:41:24+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

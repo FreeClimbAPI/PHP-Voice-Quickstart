@@ -1,5 +1,5 @@
 {
-    "require": {
-        "freeclimbapi/php-sdk": "^4.0"
-    }
+  "require": {
+    "freeclimbapi/php-sdk": "4.2.0"
+  }
 }
