@@ -48,7 +48,7 @@ We offer a [PHP Voice Quickstart Tutorial](https://docs.freeclimb.com/docs/php-v
 1. Start your voice quickstart application
 
    ```bash
-   php -S 127.0.0.1:8080
+   php -S 127.0.0.1:3000
    ```
 
 2. Call the FreeClimb number assigned to the application you've configured for this tutorial
