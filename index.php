@@ -51,19 +51,19 @@
 			<table>
 				<tr>
 					<td>Application URL</td>
-					<td><a href="http://localhost:8080">http:127.0.0.1:8080</a></td>
+					<td><a href="http://localhost:3000">http:127.0.0.1:3000</a></td>
 				</tr>
 				<tr>
 					<td>Voice URL</td>
-					<td><a href="http://localhost:8080/incoming-call.php" target="_blank">http://127.0.0.1:8080/incoming-call.php</a></td>
+					<td><a href="http://localhost:3000/incoming-call.php" target="_blank">http://127.0.0.1:3000/incoming-call.php</a></td>
 				</tr>
 			</table>
 			<h3>Welcome to FreeClimb!</h3>
-			<p>Your web server is listening at <a href="http://localhost:8080">http://127.0.0.1:8080</a></p>
-			<p>View an example PerCL JSON response to FreeClimb at <a href="http://localhost:8080/incoming-call.php" target="_blank">http://127.0.0.1:8080/incoming-call.php</a></p>
+			<p>Your web server is listening at <a href="http://localhost:3000">http://127.0.0.1:3000</a></p>
+			<p>View an example PerCL JSON response to FreeClimb at <a href="http://localhost:3000/incoming-call.php" target="_blank">http://127.0.0.1:3000/incoming-call.php</a></p>
 			<p>Your next step is to use ngrok to proxy HTTP traffic to this local web server, and then link the ngrok proxy url to your FreeClimb application </p>
 			<ol>
-				<li>Using ngrok, configure the dynamic url to proxy to http://127.0.0.1:8080 using command <pre><code>ngrok http 8080</code></pre></li>
+				<li>Using ngrok, configure the dynamic url to proxy to http://127.0.0.1:3000 using command <pre><code>ngrok http 3000</code></pre></li>
 				<li>Using the FreeClimb Dashboard or API, set your FreeClimb Application Voice Url to the dynamic endpoint NGROK generated <pre><code>e.g. https://{ngrok-generated-url}/incoming-call.php</code></pre></li>
 			</ol>
 		</div>
