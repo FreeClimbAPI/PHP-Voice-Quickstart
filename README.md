@@ -37,10 +37,16 @@ We offer a [PHP Voice Quickstart Tutorial](https://docs.freeclimb.com/docs/php-v
    composer install
    ```
 
-2. [Configure your applications's endpoints](https://docs.freeclimb.com/docs/registering-and-configuring-an-application#configure-your-application) by adding a publicly accessible URL (we recommend an [ngrok](https://ngrok.com/download) URL) and the route reference `/incomingCall` to your App Config's VoiceURL:
+2. Make your local server publicly accessible
+    ```bash
+    ngrok http 3000
+    ```
+    Once you run ngrok you should receive a response with a public URL, that looks something like 'https://ba1c-63-209-137-19.ngrok-free.app'. 
+
+3. [Configure your applications's endpoints](https://docs.freeclimb.com/docs/registering-and-configuring-an-application#configure-your-application) by adding a publicly accessible URL (we recommend an [ngrok](https://ngrok.com/download) URL) and the route reference `/incomingCall` to your App Config's VoiceURL:
 
    ```bash
-   https://{ngrok-generated-url}/incoming-call.php
+   https://YOUR-URL.ngrok.io/incoming-call.php
    ```
 
 ## Running the Quickstart
@@ -52,6 +58,20 @@ We offer a [PHP Voice Quickstart Tutorial](https://docs.freeclimb.com/docs/php-v
    ```
 
 2. Call the FreeClimb number assigned to the application you've configured for this tutorial
+
+## Using Docker to Run the Quickstart
+
+1. Pull docker image from dockerhub
+
+   ```bash
+   docker pull freeclimbapi/php-voice-quickstart
+   ```
+
+2. Run docker image
+
+   ```bash
+   docker run -p 3000:3000 freeclimbapi/php-voice-quickstart
+   ```
 
 ## Feedback & Issues
 
